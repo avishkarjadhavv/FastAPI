@@ -1,0 +1,8 @@
+from pydantic import BaseModel
+
+class ProductDTO(BaseModel):
+    id:int
+    title:str
+    price:int = 0
+    quantity:int = 0
+
